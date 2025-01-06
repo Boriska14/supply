@@ -3,6 +3,7 @@ from typing import List, Dict
 import cv2
 import numpy as np
 from fastapi.responses import JSONResponse
+from pydantic import BaseModel
 from grai_tools import extract_grid_info ,GRAIRules
 from fastapi.middleware.cors import CORSMiddleware
 from model import User, Data_points, Data_enterprise, Data_POST_request
@@ -475,36 +476,50 @@ async def login_users(user: User):
 
 UPLOAD_DIR = "C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads"  # Assurez-vous que ce chemin est correct
 
-# Nom du fichier image à rechercher
 
-# Route FastAPI pour analyser un fichier particulier dans le dossier "uploads" et renvoyer les erreurs
+
 @app.post("/inferences", tags=["Analysing Documents"])
-async def validate_grid():  # Attendre le nom de l'image
+async def inference():
     try:
-        image_filename = "test.png"  # Remplacez par le nom de l'image que vous cherchez
-
-        # Construire le chemin complet du fichier dans le dossier "uploads"
-        file_location = os.path.join(UPLOAD_DIR, image_filename)
-
-        # Vérifier si le fichier existe
-        if not os.path.exists(file_location):
-            raise HTTPException(status_code=404, detail="Fichier non trouvé dans le dossier uploads.")
+        # Vérifier si le répertoire d'uploads existe et contient des fichiers
+        if not os.path.exists(UPLOAD_DIR):
+            raise HTTPException(status_code=500, detail="Répertoire d'uploads introuvable.")
         
-        # Extraire les informations de la grille et vérifier les règles
-        grid_info = extract_grid_info(file_location)
-        if grid_info:
-            rules_checker = GRAIRules(grid_info)
-            validation_errors = rules_checker.check_rules()
-            if validation_errors:
-                return JSONResponse(content={"errors": validation_errors}, status_code=400)
-            else:
-                return JSONResponse(content={"message": "La grille GRAI respecte toutes les règles."}, status_code=200)
-        else:
-            return JSONResponse(content={"error": "Erreur d'extraction des informations de la grille."}, status_code=500)
+        files = os.listdir(UPLOAD_DIR)
+        if not files:
+            raise HTTPException(status_code=404, detail="Aucun fichier trouvé pour l'analyse.")
+        
+        # Choisir le premier fichier pour l'analyse
+        file_to_analyze = files[0]
+        file_location = os.path.join(UPLOAD_DIR, file_to_analyze)
 
+        # Assurez-vous que le fichier est bien accessible
+        if not os.path.isfile(file_location):
+            raise HTTPException(status_code=500, detail="Fichier pour l'analyse non valide ou inaccessible.")
+        
+        # Simuler l'extraction des informations de la grille depuis le fichier
+        grid_info = extract_grid_info(file_location)
+
+        # Si aucune information n'est extraite, retourner une erreur
+        if not grid_info:
+            raise HTTPException(status_code=500, detail="Erreur d'extraction des informations de la grille.")
+
+        # Validation des règles GRAI
+        rules_checker = GRAIRules(grid_info)
+        validation_errors = rules_checker.check_rules()
+
+        if validation_errors:
+            return JSONResponse(content={"errors": validation_errors}, status_code=400)
+        else:
+            return JSONResponse(content={"message": "La grille GRAI respecte toutes les règles."}, status_code=200)
+
+    except HTTPException as http_error:
+        return JSONResponse(content={"error": http_error.detail}, status_code=http_error.status_code)
+    
     except Exception as error:
-        # Gestion des erreurs en cas d'exception
         return JSONResponse(content={"error": f"Erreur lors des inférences : {str(error)}"}, status_code=500)
+
+
 
 # save enterprises points into the database
 @app.post("/save-points", tags=["DATA"])
