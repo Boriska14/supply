@@ -1,0 +1,252 @@
+.client-consommateur-1 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.overlap-group-29 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 329px;
+  height: 180px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 59px;
+}
+
+.x1200px-logo_icam_-_2008-1-29 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-container-9 {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 6.0px;
+  min-height: 128px;
+  position: relative;
+  width: 926px;
+}
+
+.please-answer-the-following-questions-8 {
+  align-self: center;
+  height: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 19.0px;
+  margin-top: 24px;
+  text-align: center;
+  width: 577px;
+}
+
+.emploirelation-employeur-employ-3 {
+  align-items: center;
+  display: flex;
+  gap: 90px;
+  margin-top: 31px;
+  position: relative;
+  width: 1526px;
+}
+
+.emploi-relation-employeur-employ-1-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  width: 382px;
+}
+
+.do-you-pass-on-produ {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 35px;
+  line-height: normal;
+  min-width: 373px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-pass-on-produ::placeholder,
+.do-you-have-safety-notices::placeholder,
+.do-you-take-measures-for-data-protection::placeholder {
+  color: #f7f9fb99;
+}
+
+.number-of-disputes-a {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 82px;
+  line-height: normal;
+  min-width: 362px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.number-of-disputes-a::placeholder,
+.are-you-audited-by-b::placeholder,
+.do-you-have-one-or-m::placeholder,
+.do-you-have-wms-ware::placeholder,
+.do-you-have-justifie::placeholder,
+.are-you-audited-by-b-1::placeholder {
+  color: #ffffff99;
+}
+
+.are-you-audited-by-b {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 24px;
+  line-height: normal;
+  min-width: 354px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.emploi-relation-employeur-employ-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame-154 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.do-you-have-safety-notices {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 37px;
+  line-height: normal;
+  min-width: 323px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-have-one-or-m {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 72px;
+  line-height: normal;
+  min-width: 351px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-have-wms-ware {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 91px;
+  line-height: normal;
+  min-width: 331px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.emploi-relation-employeur-employ-2-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  position: relative;
+  width: 444px;
+}
+
+.do-you-take-measures-for-data-protection {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 442px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-have-justifie {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  min-width: 434px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.are-you-audited-by-b-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  margin-left: -7.00px;
+  margin-right: -7.00px;
+  min-width: 458px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.flex-row-76 {
+  align-items: flex-start;
+  display: flex;
+  gap: 559px;
+  height: 89px;
+  margin-right: 107px;
+  margin-top: 65px;
+  min-width: 766px;
+  position: relative;
+}
+

@@ -1,0 +1,121 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,700,800,400|Bevan:400|Work+Sans:600|IBM+Plex+Mono:400,600|Poppins:500");
+
+/* Styles de base */
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: center;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Responsivité */
+@media only screen and (max-width: 1200px) {
+  .container-center-horizontal {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  input {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container-center-horizontal {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .align-self-flex-center {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .valign-text-middle {
+    font-size: 12px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}

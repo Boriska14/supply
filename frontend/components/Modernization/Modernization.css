@@ -1,0 +1,298 @@
+.modernization-5 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 900px;
+  overflow: hidden;
+  position: relative;
+  width: 1530px;
+}
+
+.overlap-group1-53 {
+  height: 940px;
+  left: -55px;
+  position: absolute;
+  top: -46px;
+  width: 1630px;
+}
+
+.rectangle-3-34 {
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  height: 226px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1630px;
+}
+
+.x1200px-logo_icam_-_2008-1-91 {
+  cursor: pointer;
+  height: 74px;
+  left: 127px;
+  object-fit: cover;
+  position: absolute;
+  top: 66px;
+  width: 144px;
+}
+
+.admin {
+  color: var(--ok);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  left: 1458px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 198px;
+  white-space: nowrap;
+}
+
+.please-answer-the-following-questions-34 {
+  height: 97px;
+  left: 522px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 201px;
+  width: 577px;
+}
+
+.frame-2-37 {
+  align-items: center;
+  display: flex;
+  height: 56px;
+  justify-content: flex-end;
+  left: 802px;
+  position: absolute;
+  top: 69px;
+  width: 727px;
+}
+
+.nav-items-9 {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  height: 44px;
+  margin-right: 0;
+  position: relative;
+  width: 718px;
+}
+
+.label-178 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 25.9px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.label-178:hover,
+.nav-items-10:hover {
+  transform: translate(0, -5px);
+}
+
+.frame-2-38 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 6px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 9px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-2-38:hover {
+  transform: scale(1.1);
+}
+
+.nav-items-10 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 60px;
+  height: 48px;
+  justify-content: center;
+  left: 553px;
+  position: absolute;
+  top: 168px;
+  transition: all 0.2s ease-in;
+  width: 888px;
+}
+
+.frame-2-39 {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 9px;
+  position: relative;
+  width: fit-content;
+}
+
+.label-179 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 25.9px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-87 {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 633px;
+  justify-content: center;
+  left: 127px;
+  overflow: hidden;
+  position: absolute;
+  top: 258px;
+  width: 651px;
+}
+
+.utilisez-vous-une-erp {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 22px;
+  line-height: normal;
+  min-width: 568px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.utilisez-vous-une-erp::placeholder,
+.lisez::placeholder,
+.quel-canal-utilisez::placeholder,
+.utilisez-vous-des-robots::placeholder,
+.x-26::placeholder,
+.x-27::placeholder {
+  color: #9f9f9f99;
+}
+
+.lisez {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 563px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.quel-canal-utilisez {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 22px;
+  line-height: normal;
+  min-width: 563px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.x-24 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 22px;
+  line-height: normal;
+  min-width: 563px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.x-24::placeholder,
+.x-25::placeholder {
+  color: #ffffff99;
+}
+
+.x-25 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 568px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.frame-88 {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 594px;
+  justify-content: center;
+  left: 868px;
+  overflow: hidden;
+  position: absolute;
+  top: 279px;
+  width: 699px;
+}
+
+.utilisez-vous-des-robots {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 568px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.x-26 {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 616px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.x-27 {
+  background-color: transparent;
+  border: 0;
+  color: var(--inter);
+  font-weight: 400;
+  height: 21.42px;
+  line-height: normal;
+  min-width: 641.36px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+

@@ -1,0 +1,221 @@
+.social-1-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.overlap-group-27 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 387px;
+  height: 180px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 63px;
+}
+
+.x1200px-logo_icam_-_2008-1-27 {
+  cursor: pointer;
+  height: 82px;
+  object-fit: cover;
+  width: 152px;
+}
+
+.nav-items-container-8 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 2px;
+  min-height: 128px;
+  position: relative;
+  width: 860px;
+}
+
+.nav-items-2-35 {
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  gap: 60px;
+  height: 48px;
+  justify-content: center;
+  margin-right: 1px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: 859px;
+}
+
+.nav-items-2-35:hover {
+  transform: translate(0, -5px);
+}
+
+.please-answer-the-following-questions-6 {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 25.0px;
+  margin-top: 7px;
+  text-align: center;
+  width: 577px;
+}
+
+.emploirelation-employeur-employ-1 {
+  align-items: center;
+  display: flex;
+  gap: 138px;
+  justify-content: center;
+  margin-left: 8.0px;
+  margin-top: 45px;
+  position: relative;
+  width: fit-content;
+}
+
+.emploi-relation-employeur-employ-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  width: fit-content;
+}
+
+.do-you-limit-any-typ {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  min-width: 684px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-limit-any-typ::placeholder,
+.do-you-promote-stabi::placeholder {
+  color: #f7f9fb99;
+}
+
+.do-you-have-a-percen {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 610px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-have-a-percen::placeholder,
+.what-is-it::placeholder,
+.do-you-prefer-to-hir::placeholder,
+.do-you-have-turnover::placeholder,
+.what-is-your-turnover-rate-over-a-year::placeholder {
+  color: #ffffff99;
+}
+
+.what-is-it {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 605px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.emploi-relation-employeur-employ-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  position: relative;
+  width: fit-content;
+}
+
+.do-you-promote-stabi {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 63px;
+  line-height: normal;
+  min-width: 630px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-prefer-to-hir {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 319px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.do-you-have-turnover {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 583px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.what-is-your-turnover-rate-over-a-year {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 563px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.flex-row-74 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 616px;
+  height: 62px;
+  margin-right: 75px;
+  margin-top: 74px;
+  min-width: 788px;
+  position: relative;
+}
+

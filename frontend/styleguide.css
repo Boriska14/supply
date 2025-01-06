@@ -1,0 +1,342 @@
+:root { 
+  --alizarin-crimson: #e61818;
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #00000099;
+  --broom: #f8ef15;
+  --chilean-fire: #f17400;
+  --crimson: #e31616;
+  --cultured-pearl: #f4f5f7;
+  --dark-fern: #0c4111;
+  --edward: #9fafb0;
+  --eerie-black: #18191f;
+  --ffffff: #fffafa;
+  --graye: #ffffff;
+  --inter: #9f9f9f;
+  --login: #e0861d;
+  --malachite: #0dbf34;
+  --mine-shaft: #333333;
+  --ok: #474747;
+  --praimery: #e5d0bd;
+  --rum-swizzle: #f7f6e6;
+  --rum-swizzle-2: #f7f6e7;
+  --secendry: #ef3434;
+  --soft-amber: #d0c3b3;
+  --sonic-silver: #777777;
+  --tall-poppy: #b52222;
+  --tropical-rain-forest: #007367;
+  --white: #3e5d60;
+  --white-2: #ffffff05;
+  --white-3: #ffffff1a;
+  --white-lilac: #f7f9fb;
+  --wild-sand: #f0f4f4;
+ 
+  --font-size-l: 14px;
+  --font-size-m: 13px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 18.1px;
+  --font-size-xxxxl: 20px;
+  --font-size-xxxxxl: 24px;
+ 
+  --font-family-bevan: "Bevan", Helvetica;
+  --font-family-ibm_plex_mono: "IBM Plex Mono", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-work_sans: "Work Sans", Helvetica;
+}
+
+/* =========================
+   Fond de Couleur Agréable
+   ========================= */
+body {
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+  color: var(--mine-shaft); /* Couleur du texte pour un bon contraste */
+  font-family: var(--font-family-inter); /* Font par défaut */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+/* Ajout pour les conteneurs principaux */
+.container {
+  background: rgba(255, 255, 255, 0.8); /* Légère transparence */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   Styles pour les classes de texte
+   ========================= */
+.subtitel {
+  font-family: var(--font-family-bevan);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.inter-medium-star-dust-18px {
+  color: var(--inter);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-mineral-green-16px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-mineral-green-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-rum-swizzle-18px {
+  color: var(--rum-swizzle-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-sonic-silver-18px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-white-18px {
+  color: var(--graye);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-rum-swizzle-18-1px {
+  color: var(--rum-swizzle);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.bevan-normal-white-20px {
+  color: var(--graye);
+  font-family: var(--font-family-bevan);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-dark-fern-18-1px {
+  color: var(--dark-fern);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-tropical-rain-forest-18px {
+  color: var(--tropical-rain-forest);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexmono-normal-black-14px {
+  color: var(--black-2);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-semi-bold-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-mineral-green-24px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexmono-normal-mineral-green-14px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-cultured-pearl-14px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-sonic-silver-14px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-rum-swizzle-24px {
+  color: var(--rum-swizzle);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-bold-rum-swizzle-56px {
+  color: var(--rum-swizzle);
+  font-family: var(--font-family-inter);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-sonic-silver-18-1px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.worksans-semi-bold-white-16px {
+  color: var(--graye);
+  font-family: var(--font-family-work_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-bold-mineral-green-56px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ibmplexmono-normal-chilean-fire-14px {
+  color: var(--chilean-fire);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-medium-dark-fern-14px {
+  color: var(--dark-fern);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-white-18-1px {
+  color: var(--graye);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-rum-swizzle-14px {
+  color: var(--rum-swizzle);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-star-dust-14px {
+  color: var(--inter);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-gravel-14px {
+  color: var(--ok);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-medium-star-dust-18-1px {
+  color: var(--inter);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.inter-bold-mineral-green-20px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-medium-cultured-pearl-16px {
+  color: var(--cultured-pearl);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.ibmplexmono-normal-mineral-green-20px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ibmplexmono-semi-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-ibm_plex_mono);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 600;
+}

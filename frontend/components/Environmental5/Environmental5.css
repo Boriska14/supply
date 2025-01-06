@@ -1,0 +1,203 @@
+.environmental-5 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.overlap-group-79 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 329px;
+  height: 180px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 59px;
+}
+
+.x1200px-logo_icam_-_2008-2 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-container-43 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 2px;
+  min-height: 128px;
+  position: relative;
+  width: 926px;
+}
+
+.overlap-group1-49 {
+  align-self: center;
+  height: 379px;
+  margin-left: 12.0px;
+  margin-top: 147px;
+  position: relative;
+  width: 1486px;
+}
+
+.frame-122 {
+  display: flex;
+  gap: 20px;
+  height: 379px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1474px;
+}
+
+.frame-119 {
+  display: flex;
+  flex-direction: column;
+  height: 248px;
+  position: relative;
+  width: 721px;
+}
+
+.prparez-vous-ladapta {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  margin-top: 19px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 721px;
+}
+
+.prparez-vous-ladapta::placeholder,
+.maitrisez-et-limitez-3::placeholder {
+  color: #f7f9fb99;
+}
+
+.avez-vous-tabli-un-bilan-carbone {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 190px;
+  margin-top: 22px;
+  opacity: 0.5;
+  padding: 0;
+  width: 258px;
+}
+
+.avez-vous-tabli-un-bilan-carbone::placeholder,
+.avez-vous-dj-effectu::placeholder,
+.avez-vous-dj-mesurer::placeholder {
+  color: #ffffff99;
+}
+
+.frame-120 {
+  display: flex;
+  flex-direction: column;
+  height: 379px;
+  position: relative;
+  width: 721px;
+}
+
+.maitrisez-et-limitez-3 {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  margin-left: 12px;
+  margin-top: 19px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 721px;
+}
+
+.avez-vous-dj-effectu {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 42px;
+  left: 772px;
+  line-height: normal;
+  opacity: 0.5;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 164px;
+  width: 714px;
+}
+
+.avez-vous-dj-mesurer {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  left: 772px;
+  line-height: normal;
+  opacity: 0.5;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  top: 274px;
+  width: 714px;
+}
+
+.flex-row-144 {
+  align-items: flex-start;
+  display: flex;
+  gap: 469px;
+  height: 66px;
+  margin-right: 61px;
+  margin-top: 118px;
+  min-width: 809px;
+  position: relative;
+}
+
+.frame-112-7 {
+  align-items: center;
+  background-color: var(--rum-swizzle);
+  border-radius: 40px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-112-7:hover {
+  transform: scale(1.1);
+}
+
+.social-criteria {
+  letter-spacing: 0.20px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+

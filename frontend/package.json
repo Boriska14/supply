@@ -1,0 +1,23 @@
+{
+  "name": "react-package",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./ --no-scope-hoist"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^5.0.1"
+  },
+  "devDependencies": {
+    "browserslist": "4.19.3",
+    "buffer": "^5.7.1",
+    "parcel": "^2.13.2",
+    "parcel-reporter-static-files-copy": "^1.3.4",
+    "process": "^0.11.10"
+  }
+}

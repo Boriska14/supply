@@ -1,0 +1,222 @@
+.environmental-4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.overlap-group1-50 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 329px;
+  height: 180px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 59px;
+}
+
+.x1200px-logo_icam_-_2008-2-1 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-container-45 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 2px;
+  min-height: 128px;
+  position: relative;
+  width: 926px;
+}
+
+.frame-122-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 384px;
+  justify-content: flex-end;
+  margin-top: 144px;
+  min-width: 1524px;
+  padding: 16.3px 0;
+}
+
+.group-container-3 {
+  height: 335px;
+  position: relative;
+  width: 1550px;
+}
+
+.group-106 {
+  display: flex;
+  height: 248px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 521px;
+}
+
+.group-107-1 {
+  display: flex;
+  flex-direction: column;
+  height: 248px;
+  position: relative;
+  width: 525px;
+}
+
+.essayez-vous-de-rdui {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 21.09px;
+  line-height: normal;
+  margin-top: 22.1px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 521px;
+}
+
+.essayez-vous-de-rdui::placeholder,
+.favorisez-vous-le-r::placeholder,
+.favorisez-vous-le-re::placeholder {
+  color: #f7f9fb99;
+}
+
+.importez-exportez-ou {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 42.17px;
+  line-height: normal;
+  margin-left: 57.8px;
+  margin-top: 23.1px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 406.11px;
+}
+
+.importez-exportez-ou::placeholder,
+.quel-est-le-pourcent-1::placeholder,
+.vendez-vous-vos-dchets-valorisables::placeholder,
+.avez-vous-des-parten::placeholder {
+  color: #ffffff99;
+}
+
+.group-108 {
+  display: flex;
+  flex-direction: column;
+  height: 243px;
+  left: 490px;
+  position: absolute;
+  top: 0;
+  width: 520px;
+}
+
+.favorisez-vous-le-r {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-top: 28px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 516px;
+}
+
+.quel-est-le-pourcent-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-top: 31px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 516px;
+}
+
+.group-109 {
+  display: flex;
+  flex-direction: column;
+  height: 335px;
+  left: 953px;
+  position: absolute;
+  top: 0;
+  width: 597px;
+}
+
+.favorisez-vous-le-re {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 21.38px;
+  line-height: normal;
+  margin-top: 31.3px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 591px;
+}
+
+.vendez-vous-vos-dchets-valorisables {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21.38px;
+  line-height: normal;
+  margin-top: 30.3px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 591px;
+}
+
+.avez-vous-des-parten {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 33.5px;
+  margin-top: 20.3px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 523.95px;
+}
+
+.flex-row-146 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 543px;
+  height: 73px;
+  margin-right: 72px;
+  margin-top: 109px;
+  min-width: 798px;
+  position: relative;
+}
+
+.yes-count {
+  margin-left: 18cm;
+}

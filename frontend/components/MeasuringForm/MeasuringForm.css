@@ -1,0 +1,145 @@
+.measuring-form-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  overflow: hidden;
+  width: 1530px;
+}
+
+.ellipse-116-1 {
+  align-self: flex-end;
+  height: 100px;
+  margin-right: -1238px;
+  margin-top: -638px;
+  width: 100px;
+}
+
+.overlap-group1-23 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 329px;
+  height: 180px;
+  justify-content: flex-end;
+  margin-top: 538px;
+  min-width: 1530px;
+  padding: 20px 59px;
+}
+
+.x1200px-logo_icam_-_2008-1-10 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-container-1 {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 2px;
+  min-height: 128px;
+  position: relative;
+  width: 926px;
+}
+
+.criteria-measurement-form {
+  height: 97px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 35.0px;
+  margin-top: 14px;
+  text-align: center;
+  width: 577px;
+}
+
+.flex-row-32 {
+  align-items: flex-start;
+  display: flex;
+  gap: 160px;
+  margin-left: 8.0px;
+  margin-top: 125px;
+  min-width: 632px;
+}
+
+.frame-container-5 {
+  border-radius: 40px;
+  height: 48px;
+  position: relative;
+  width: 263px;
+}
+
+.frame-10-1 {
+  align-items: center;
+  background-color: var(--rum-swizzle);
+  border-radius: 40px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  /* left: 50%; Déplace l'élément à 50% de la largeur de la page */
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-10-1:hover,
+.frame-1-18:hover {
+  transform: scale(1.1);
+}
+
+.x-criteria {
+  letter-spacing: 0.20px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame-1-18 {
+  align-items: center;
+  background-color: var(--rum-swizzle);
+  border-radius: 40px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-container-6 {
+  align-items: flex-start;
+  display: flex;
+  gap: 227px;
+  height: 48px;
+  margin-left: 26.0px;
+  margin-top: 51px;
+  min-width: 568px;
+}
+
+.frame-container-7 {
+  align-items: flex-start;
+  display: flex;
+  gap: 180px;
+  height: 48px;
+  margin-top: 55px;
+  min-width: 616px;
+}
+

@@ -1,0 +1,159 @@
+.cur-performance-10 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  height: 924px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.overlap-group-91 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 241px;
+  height: 183px;
+  justify-content: flex-end;
+  margin-left: 3px;
+  min-width: 1440px;
+  padding: 17px 57px;
+}
+
+.x1200px-logo_icam_-_2008-1-88 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-container-52 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-top: 4px;
+  min-height: 129px;
+  position: relative;
+  width: 929px;
+}
+
+.nav-items-2-56 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 60px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: 923px;
+}
+
+.nav-items-2-56:hover {
+  transform: translate(0, -5px);
+}
+
+.frame-116-181 {
+  align-items: center;
+  background-color: var(--tropical-rain-forest);
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-116-181:hover {
+  transform: scale(1.1);
+}
+
+.result-propositions {
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.flex-row-154 {
+  align-items: flex-start;
+  display: flex;
+  gap: 357px;
+  height: 69px;
+  margin-left: 33px;
+  min-width: 1005px;
+}
+
+.frame-5-25 {
+  align-items: center;
+  background-color: var(--rum-swizzle);
+  border-radius: 6px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 30px;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  width: 78px;
+}
+
+.place-273 {
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  margin-bottom: -8px;
+  margin-top: -10px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.formalismes-en-fonct-1 {
+  align-self: flex-end;
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 570px;
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2,
+.container3,
+.container4 {
+  flex: 1;
+  margin: 10px;
+}
+
+.container2 h2,
+.container3 h2,
+.container4 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.container2 label,
+.container3 label,
+.container4 label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}

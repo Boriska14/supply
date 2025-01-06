@@ -1,0 +1,271 @@
+.environmental-2 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.nav-items-container-12 {
+  align-items: flex-end;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 180px;
+  padding: 22px 59px;
+  position: relative;
+  width: 1530px;
+}
+
+.pollutions {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  gap: 36px;
+  margin-right: 14px;
+  margin-top: 33px;
+  min-width: 1434px;
+}
+
+.overlap-group-34 {
+  height: 534px;
+  position: relative;
+  width: 753px;
+}
+
+.pollution-de-leau-et-des-sols {
+  display: flex;
+  flex-direction: column;
+  height: 534px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 753px;
+}
+
+.frame-137 {
+  display: flex;
+  height: 39px;
+  margin-left: 108px;
+  position: relative;
+  width: 516px;
+}
+
+.maitrisez-et-limitez {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  margin-left: 24px;
+  margin-top: 16px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 684px;
+}
+
+.maitrisez-et-limitez::placeholder,
+.maitrisez-et-limitez-1::placeholder {
+  color: #f7f9fb99;
+}
+
+.suivez-vous-votre-volume-deau-consomm {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 206px;
+  margin-top: 18px;
+  opacity: 0.5;
+  padding: 0;
+  width: 319px;
+}
+
+.suivez-vous-votre-volume-deau-consomm::placeholder,
+.avez-vous-investis-d::placeholder,
+.avez-vous-un-budget::placeholder,
+.avez-vous-un-budget-1::placeholder,
+.suivez-vous-la-conso::placeholder,
+.avez-vous-un-budget-2::placeholder,
+.suivez-vous-les-quan::placeholder,
+.formez-vous-les-chauffeurs-lcoconduite::placeholder,
+.avez-vous-un-budget-3::placeholder {
+  color: #ffffff99;
+}
+
+.avez-vous-investis-d {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 63px;
+  margin-top: 21px;
+  opacity: 0.5;
+  padding: 0;
+  width: 605px;
+}
+
+.avez-vous-un-budget {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 84px;
+  margin-top: 20px;
+  opacity: 0.5;
+  padding: 0;
+  width: 563px;
+}
+
+.avez-vous-un-budget-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 84px;
+  margin-top: 16px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 563px;
+}
+
+.frame-130-4 {
+  height: 36px;
+  left: 208px;
+  position: absolute;
+  top: 71px;
+  width: 146px;
+}
+
+.pollution-de-lair {
+  display: flex;
+  flex-direction: column;
+  height: 606px;
+  position: relative;
+  width: 655px;
+}
+
+.frame-138-1 {
+  display: flex;
+  height: 39px;
+  margin-left: 74px;
+  position: relative;
+  width: 516px;
+}
+
+.maitrisez-et-limitez-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--white-lilac);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 9px;
+  margin-top: 40px;
+  opacity: 0.5;
+  padding: 0;
+  width: 647px;
+}
+
+.suivez-vous-la-conso {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 87px;
+  margin-top: 26px;
+  opacity: 0.5;
+  padding: 0;
+  width: 491px;
+}
+
+.avez-vous-un-budget-2 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 41px;
+  margin-top: 21px;
+  opacity: 0.5;
+  padding: 0;
+  width: 583px;
+}
+
+.suivez-vous-les-quan {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 51px;
+  margin-top: 19px;
+  opacity: 0.5;
+  padding: 0;
+  width: 563px;
+}
+
+.formez-vous-les-chauffeurs-lcoconduite {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 51px;
+  margin-top: 16px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 563px;
+}
+
+.avez-vous-un-budget-3 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  margin-left: 44px;
+  margin-top: 15px;
+  opacity: 0.5;
+  padding: 0;
+  text-align: center;
+  width: 577px;
+}
+
+.flex-row-81 {
+  align-items: flex-start;
+  display: flex;
+  gap: 472px;
+  height: 61px;
+  margin-right: 143px;
+  margin-top: 10px;
+  min-width: 727px;
+  position: relative;
+}
+
+.yes-count {
+  font-size: larger;
+  color: white;
+}

@@ -1,0 +1,118 @@
+.inscription {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 810px;
+  height: 900px;
+  overflow: hidden;
+  width: 1530px;
+}
+
+.overlap-group2-12 {
+  height: 934px;
+  margin-left: -581px;
+  position: relative;
+  width: 2111px;
+}
+
+.aerial-view-container-cargo-ship-sea-1-1 {
+  height: 900px;
+  left: 581px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1530px;
+}
+
+.ellipse-1-1 {
+  background-color: var(--login);
+  border-radius: 381.5px/414.5px;
+  height: 829px;
+  left: 0;
+  position: absolute;
+  top: 105px;
+  width: 763px;
+}
+
+.ellipse-2-1 {
+  background-color: var(--secendry);
+  border-radius: 32px/34.5px;
+  height: 69px;
+  left: 587px;
+  position: absolute;
+  top: 164px;
+  width: 64px;
+}
+
+.subtract-1 {
+  height: 498px;
+  left: 1759px;
+  position: absolute;
+  top: 0;
+  width: 352px;
+}
+
+.polygon-1-1 {
+  height: 156px;
+  left: 1960px;
+  position: absolute;
+  top: 744px;
+  width: 151px;
+}
+
+.polygon-2-1 {
+  height: 218px;
+  left: 1912px;
+  position: absolute;
+  top: 682px;
+  width: 199px;
+}
+
+.frame-1-19 {
+  background-color: var(--login);
+  border-radius: 6px;
+  cursor: pointer;
+  height: 47px;
+  left: 1151px;
+  position: absolute;
+  top: 702px;
+  transition: all 0.2s ease-in;
+  width: 369px;
+}
+
+.frame-1-19:hover,
+.login-1:hover {
+  transform: scale(1.1);
+}
+
+.login-1 {
+  cursor: pointer;
+  height: 47px;
+  left: 1151px;
+  letter-spacing: 0;
+  line-height: 25.9px;
+  position: absolute;
+  text-align: center;
+  top: 701px;
+  transition: all 0.2s ease-in;
+  width: 369px;
+}
+
+.x1200px-logo_icam_-_20081 {
+  height: 172px;
+  left: 1096px;
+  object-fit: cover;
+  position: absolute;
+  top: 184px;
+  width: 323px;
+}
+
+.polygon-3-1 {
+  align-self: center;
+  height: 294px;
+  margin-right: 411.18px;
+  width: 293px;
+}
+

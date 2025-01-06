@@ -1,0 +1,181 @@
+.environmental-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.overlap-group-10 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  gap: 384px;
+  height: 180px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 59px;
+}
+
+.x1200px-logo_icam_-_2008-1-9 {
+  cursor: pointer;
+  height: 85px;
+  object-fit: cover;
+  width: 152px;
+}
+
+.nav-items-container {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 2px;
+  min-height: 128px;
+  position: relative;
+  width: 867px;
+}
+
+.nav-items-2-14 {
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  gap: 60px;
+  height: 48px;
+  justify-content: center;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: 867px;
+}
+
+.nav-items-2-14:hover {
+  transform: translate(0, -5px);
+}
+
+.please-answer-the-following-questions {
+  height: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 76px;
+  margin-top: 5px;
+  text-align: center;
+  width: 570px;
+}
+
+.dmarche-environnemental {
+  align-items: center;
+  display: flex;
+  gap: 162px;
+  justify-content: center;
+  margin-left: 31px;
+  margin-top: 99px;
+  position: relative;
+  width: fit-content;
+}
+
+.dmarche-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  height: 350px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.group-89-1 {
+  display: flex;
+  height: 24px;
+  min-width: 547px;
+  position: relative;
+}
+
+.group-92-1 {
+  display: flex;
+  width: 549px;
+}
+
+.grez-vous-les-risqu {
+  color: var(--ffffff);
+  font-weight: 400;
+  height: 24px;
+  line-height: normal;
+  opacity: 0.5;
+  width: 547px;
+}
+
+.dmarche-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  position: relative;
+  width: fit-content;
+}
+
+.promouvez-vous-la-re {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 42px;
+  line-height: normal;
+  min-width: 565px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.promouvez-vous-la-re::placeholder,
+.avez-vous-des-employ::placeholder,
+.avez-vous-des-employ-1::placeholder {
+  color: #ffffff99;
+}
+
+.avez-vous-des-employ {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 589px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.avez-vous-des-employ-1 {
+  background-color: transparent;
+  border: 0;
+  color: var(--graye);
+  font-weight: 400;
+  height: 21px;
+  line-height: normal;
+  min-width: 650px;
+  opacity: 0.5;
+  padding: 0;
+  position: relative;
+}
+
+.flex-row-31 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 587px;
+  height: 61px;
+  margin-right: 76px;
+  margin-top: 126px;
+  min-width: 769px;
+  position: relative;
+}
+
+.yes-count {
+  font-size: larger;
+  color: white;
+}

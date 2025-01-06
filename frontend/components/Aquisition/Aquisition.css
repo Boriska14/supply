@@ -1,0 +1,238 @@
+.aquisition-27 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  width: 1530px;
+}
+
+.ellipse-116 {
+  height: 100px;
+  margin-left: 630.0px;
+  margin-top: -637px;
+  width: 100px;
+}
+
+.overlap-group3-3 {
+  align-items: flex-end;
+  background-color: var(--rum-swizzle);
+  border-radius: 41px 0px 100px 118px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 537px;
+  min-height: 180px;
+  padding: 20px 59px;
+  position: relative;
+  width: 1530px;
+}
+
+.flex-row-10 {
+  align-items: center;
+  display: flex;
+  gap: 400px;
+  margin-right: 4px;
+  min-width: 1395px;
+  position: relative;
+}
+
+.x1200px-logo_icam_-_2008-1-3 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.group-89 {
+  display: flex;
+  margin-right: 31.0px;
+  margin-top: 195px;
+  width: 537px;
+}
+
+.group-92 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 541px;
+}
+
+.overlap-group-3 {
+  height: 75px;
+  position: relative;
+  width: 537px;
+}
+
+.rectangle-4360 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--soft-amber);
+  border-radius: 6px;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 37px;
+  width: 537px;
+}
+
+.company-name {
+  color: var(--ffffff);
+  font-weight: 400;
+  left: 3px;
+  line-height: normal;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.tap-here-4 {
+  background-color: transparent;
+  border: 0;
+  color: var(--edward);
+  font-weight: 400;
+  height: 38px;
+  left: 7px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 37px;
+  width: 529px;
+}
+
+.tap-here-4::placeholder,
+.tap-here-5::placeholder,
+.tap-here-6::placeholder {
+  color: #9fafb099;
+}
+
+.overlap-group2-3 {
+  height: 68px;
+  margin-right: 25.0px;
+  margin-top: 24px;
+  position: relative;
+  width: 537px;
+}
+
+.group-91 {
+  display: flex;
+  height: 68px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 537px;
+}
+
+.group-93 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 539px;
+}
+
+.overlap-group-4 {
+  height: 68px;
+  position: relative;
+  width: 537px;
+}
+
+.company-size,
+.activity-sector {
+  color: var(--graye);
+  font-weight: 400;
+  left: 4px;
+  line-height: normal;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 381px;
+}
+
+.rectangle-4360-1 {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--soft-amber);
+  border-radius: 6px;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 537px;
+}
+
+.tap-here-5 {
+  background-color: transparent;
+  border: 0;
+  color: var(--edward);
+  font-weight: 400;
+  height: 38px;
+  left: 4px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 29px;
+  width: 530px;
+}
+
+.group-94 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 23.0px;
+  margin-top: 24px;
+  min-width: 539px;
+}
+
+.overlap-group-5 {
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 537px;
+}
+
+.tap-here-6 {
+  background-color: transparent;
+  border: 0;
+  color: var(--edward);
+  font-weight: 400;
+  height: 38px;
+  left: 4px;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 37px;
+  width: 530px;
+}
+
+.frame-105 {
+  align-items: center;
+  background-color: var(--rum-swizzle);
+  border-radius: 40px;
+  box-shadow: 0px 4px 11px #1e454945;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  margin-right: 86.0px;
+  margin-top: 88px;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-105:hover {
+  transform: scale(1.1);
+}
+
+.measuring-form {
+  letter-spacing: 0.20px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+

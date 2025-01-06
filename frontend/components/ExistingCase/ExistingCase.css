@@ -1,0 +1,74 @@
+.existing-case-63 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  height: 903px;
+  width: 1530px;
+}
+
+.overlap-group-7 {
+  align-items: flex-start;
+  background-color: var(--rum-swizzle);
+  border-radius: 0px 0px 66px 59px;
+  display: flex;
+  gap: 400px;
+  height: 900px;
+  justify-content: flex-end;
+  min-width: 1530px;
+  padding: 20px 63px;
+}
+
+.x1200px-logo_icam_-_2008-1-5 {
+  cursor: pointer;
+  height: 74px;
+  object-fit: cover;
+  width: 144px;
+}
+
+.nav-items-3-62 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 60px;
+  height: 48px;
+  justify-content: center;
+  margin-top: 10px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: 851px;
+}
+
+.nav-items-3-62:hover {
+  transform: translate(0, -5px);
+}
+
+.frame-117-72 {
+  align-items: center;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px #00000040;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  padding: 15px;
+  position: relative;
+  transition: all 0.2s ease-in;
+  width: fit-content;
+}
+
+.frame-117-72:hover {
+  transform: scale(1.1);
+}
+
+.existing-case-64 {
+  letter-spacing: 0.20px;
+  line-height: 18px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
