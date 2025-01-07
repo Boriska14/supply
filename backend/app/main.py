@@ -489,16 +489,16 @@ async def inference():
         if not files:
             raise HTTPException(status_code=404, detail="Aucun fichier trouvé pour l'analyse.")
         
-        # Choisir le premier fichier pour l'analyse
-        file_to_analyze = files[0]
-        file_location = os.path.join(UPLOAD_DIR, file_to_analyze)
-
-        # Assurez-vous que le fichier est bien accessible
-        if not os.path.isfile(file_location):
-            raise HTTPException(status_code=500, detail="Fichier pour l'analyse non valide ou inaccessible.")
+        # Trouver le dernier fichier modifié
+        files_with_paths = [os.path.join(UPLOAD_DIR, f) for f in files]
+        files_with_paths = [f for f in files_with_paths if os.path.isfile(f)]  # Garder uniquement les fichiers
+        if not files_with_paths:
+            raise HTTPException(status_code=404, detail="Aucun fichier valide trouvé pour l'analyse.")
         
+        latest_file = max(files_with_paths, key=os.path.getmtime)  # Fichier le plus récemment modifié
+
         # Simuler l'extraction des informations de la grille depuis le fichier
-        grid_info = extract_grid_info(file_location)
+        grid_info = extract_grid_info(latest_file)
 
         # Si aucune information n'est extraite, retourner une erreur
         if not grid_info:
@@ -509,7 +509,7 @@ async def inference():
         validation_errors = rules_checker.check_rules()
 
         if validation_errors:
-            return JSONResponse(content={"errors": validation_errors}, status_code=400)
+            return JSONResponse(content={"errors": validation_errors}, status_code=200)
         else:
             return JSONResponse(content={"message": "La grille GRAI respecte toutes les règles."}, status_code=200)
 
@@ -518,8 +518,6 @@ async def inference():
     
     except Exception as error:
         return JSONResponse(content={"error": f"Erreur lors des inférences : {str(error)}"}, status_code=500)
-
-
 
 # save enterprises points into the database
 @app.post("/save-points", tags=["DATA"])
