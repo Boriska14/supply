@@ -38,7 +38,7 @@ CLIENT_SECRET_FILE = "C:/Users/USER/Downloads/client_secret_.json"
 from database import register_user, login, save_enterprise, save_points, save_data
 
 
-origins = ["http://localhost:1234"]
+origins = ["http://localhost:1234", "https://supplychain.graiperf.eu"]
 
 app.add_middleware(
     CORSMiddleware,
