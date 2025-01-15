@@ -5,7 +5,7 @@ function BeautifulPage() {
   const [result, setResult] = useState(null);
 
   function inference() {
-    fetch("http://127.0.0.1:8000/inferences", {
+    fetch(process.env.API_URL + "/inferences", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

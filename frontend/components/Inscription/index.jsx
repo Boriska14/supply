@@ -25,7 +25,7 @@ function Inscription(props) {
       password: password
     };
   
-    fetch("http://127.0.0.1:8000/api/users", {
+    fetch(process.env.API_URL + "/api/users", {
       method: 'POST', // Utilisez la méthode POST
       headers: {
         'Content-Type': 'application/json'

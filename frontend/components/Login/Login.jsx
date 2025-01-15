@@ -15,7 +15,7 @@ function Login() {
 
       try {
         // esending data to server
-         await axios.post('http://127.0.0.1:8000/login',{
+         await axios.post(process.env.API_URL +'/login',{
           username: username,
           password: password,
         });
@@ -34,7 +34,7 @@ function Login() {
       
       try {
         // sending data to server
-        await axios.post('http://127.0.0.1:8000/register',{
+        await axios.post('process.env.API_URL/register',{
           username: username,
           password: password,
         });

@@ -121,7 +121,7 @@ function Modernization4(props) {
       y += lineHeight; // Mettre à jour la position y pour la prochaine ligne
     });
 
-    fetch("http://127.0.0.1:8000/save-answers", {
+    fetch(process.env.API_URL + "/save-answers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
