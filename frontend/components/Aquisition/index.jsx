@@ -42,7 +42,7 @@ function Aquisition(props) {
       date_added: currentDate,
     };
 
-    fetch("http://127.0.0.1:8000/api/save-enterprises", {
+    fetch(process.env.API_URL + "/api/save-enterprises", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

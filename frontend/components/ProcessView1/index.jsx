@@ -57,7 +57,7 @@ function ProcessView1(props) {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/open-VMWarehorizon");
+      const response = await fetch(process.env.API_URL + "/open-VMWarehorizon");
 
       const responseData = await response.json();
       console.log(responseData);

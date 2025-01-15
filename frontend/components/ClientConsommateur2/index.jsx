@@ -100,7 +100,7 @@ function ClientConsommateur2(props) {
       ClientConsommateur: { Total: cc_sum },
     };
 
-    fetch("http://127.0.0.1:8000/save-points", {
+    fetch(process.env.API_URL + "/save-points", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

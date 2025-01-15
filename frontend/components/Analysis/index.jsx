@@ -26,7 +26,7 @@ function Analysis(props) {
 
   // Fonction d'inférence pour récupérer les résultats
   function inference() {
-    fetch("http://127.0.0.1:8000/inferences", {
+    fetch(process.env.API_URL + "/inferences", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
