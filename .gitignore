@@ -4,6 +4,7 @@ C:\Users\boris\Documents\GPS_2024\supplychain\farmstack_project\frontend\.parcel
 
 # Ignorer les dossiers et fichiers spécifiques
 /node_modules/
+/backend/venv/
 /venv/
 *.log
 *.pyc
