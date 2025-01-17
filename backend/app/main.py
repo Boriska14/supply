@@ -18,6 +18,9 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from PIL import Image
+from database import fs
+from bson.objectid import ObjectId
+import gridfs
 import pytesseract
 import io
 import pdfplumber
@@ -51,6 +54,7 @@ app.add_middleware(
 
 # Initialize the PyKE knowledge engine
 engine = knowledge_engine.engine(__file__)
+
 
 
 def detect_shapes(image_content: bytes):
@@ -465,19 +469,14 @@ async def login_users(user: User):
     password = user.password
 
     # Check for the fixed credentials
-    if username == "boriska" and password == "boriska":
+    if username == "admin" and password == "admin":
         return {"message": "Login successful", "user": username}
 
     # Call the database login function for other users
     response = await login(username, password)
     return response
 
-
-
-UPLOAD_DIR = "C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads"  # Assurez-vous que ce chemin est correct
-
-
-
+UPLOAD_DIR="C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads"
 @app.post("/inferences", tags=["Analysing Documents"])
 async def inference():
     try:
@@ -497,8 +496,28 @@ async def inference():
         
         latest_file = max(files_with_paths, key=os.path.getmtime)  # Fichier le plus récemment modifié
 
+        # Envoyer le fichier dans GridFS
+        with open(latest_file, 'rb') as file:
+            file_id = fs.put(file, filename=os.path.basename(latest_file))
+
+        # Vérifier si l'ID est valide
+        if not ObjectId.is_valid(file_id):
+            raise HTTPException(status_code=400, detail="ID de fichier invalide.")
+
+        # Récupérer l'image depuis GridFS
+        try:
+            grid_out = fs.get(file_id)  # Récupérer le fichier via son ID
+            image_data = grid_out.read()  # Lire les données de l'image
+        except gridfs.errors.NoFile:
+            raise HTTPException(status_code=404, detail="Fichier non trouvé dans la base de données.")
+        
+        # Sauvegarder temporairement l'image pour l'analyser
+        temp_image_path = os.path.join(UPLOAD_DIR, "temp_image.png")
+        with open(temp_image_path, 'wb') as temp_file:
+            temp_file.write(image_data)
+
         # Simuler l'extraction des informations de la grille depuis le fichier
-        grid_info = extract_grid_info(latest_file)
+        grid_info = extract_grid_info(temp_image_path)
 
         # Si aucune information n'est extraite, retourner une erreur
         if not grid_info:
@@ -514,10 +533,10 @@ async def inference():
             return JSONResponse(content={"message": "La grille GRAI respecte toutes les règles."}, status_code=200)
 
     except HTTPException as http_error:
-        return JSONResponse(content={"error": http_error.detail}, status_code=http_error.status_code)
-    
-    except Exception as error:
-        return JSONResponse(content={"error": f"Erreur lors des inférences : {str(error)}"}, status_code=500)
+        return JSONResponse(content={"detail": str(http_error.detail)}, status_code=http_error.status_code)
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 # save enterprises points into the database
 @app.post("/save-points", tags=["DATA"])

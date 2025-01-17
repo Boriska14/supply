@@ -2,21 +2,37 @@ from model import User, Data_enterprise, Data_points, Data_POST_request
 from fastapi import FastAPI, HTTPException
 from datetime import datetime
 import bcrypt
+import gridfs
+from pymongo import MongoClient
 import motor.motor_asyncio
 
 # MongoDB Driver and client creation
-client = motor.motor_asyncio.AsyncIOMotorClient(
-    "mongodb://root:12Grai%3F34icamDBr@195.35.0.41:27017/"
-)
+# client = motor.motor_asyncio.AsyncIOMotorClient(
+#     "mongodb://root:12Grai%3F34icamDBr@195.35.0.41:27017/"
+# )
+client = MongoClient("mongodb://root:12Grai%3F34icamDBr@195.35.0.41:27017/")  
+# Remplacez par votre URI de connexion
+
 
 # Database
-database = client.Icam
+database = client['Icam']
 users_collection = database.users
 enterprises_collection = database.enterprises
 answers_collection = database.answers
 cases_collection = database.MSR
 
-# main functions
+fs=gridfs.GridFS(database, collection="GRAI")
+
+with open('C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads/test.png', 'rb') as file:
+    file_id = fs.put(file, filename='test')
+
+# # Exemple : Récupérer un fichier depuis GridFS
+# grid_out = fs.get(file_id)
+# file_data = grid_out.read()
+# output_path='C:/Users/boris/Documents/test.png'
+# with open(output_path, 'wb') as output_file:
+#     output_file.write(file_data)
+print(f'Fichier sauvegardé dans GridFS et localement à ')
 
 # Hash password
 async def hash_password(password: str, salt: bytes = None) -> tuple[str, str]:
