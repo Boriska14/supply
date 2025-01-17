@@ -45,7 +45,7 @@ origins = ["http://localhost:1234", "https://supplychain.graiperf.eu", "https://
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins="https://supply.scgreenoptimizer.fr",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
