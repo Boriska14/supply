@@ -34,7 +34,7 @@ function Login() {
       
       try {
         // sending data to server
-        await axios.post('process.env.API_URL/register',{
+        await axios.post(process.env.API_URL + '/register',{
           username: username,
           password: password,
         });
