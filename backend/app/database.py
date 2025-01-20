@@ -23,16 +23,16 @@ cases_collection = database.MSR
 
 fs=gridfs.GridFS(database, collection="GRAI")
 
-with open('C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads/test.png', 'rb') as file:
-    file_id = fs.put(file, filename='test')
+# with open('C:/Users/boris/Documents/GPS_2024/supplychain/farmstack_project/backend/uploads/test.png', 'rb') as file:
+#     file_id = fs.put(file, filename='test')
 
-# # Exemple : Récupérer un fichier depuis GridFS
-# grid_out = fs.get(file_id)
-# file_data = grid_out.read()
-# output_path='C:/Users/boris/Documents/test.png'
-# with open(output_path, 'wb') as output_file:
-#     output_file.write(file_data)
-print(f'Fichier sauvegardé dans GridFS et localement à ')
+# # # Exemple : Récupérer un fichier depuis GridFS
+# # grid_out = fs.get(file_id)
+# # file_data = grid_out.read()
+# # output_path='C:/Users/boris/Documents/test.png'
+# # with open(output_path, 'wb') as output_file:
+# #     output_file.write(file_data)
+# print(f'Fichier sauvegardé dans GridFS ')
 
 # Hash password
 async def hash_password(password: str, salt: bytes = None) -> tuple[str, str]:

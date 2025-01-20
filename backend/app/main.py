@@ -41,11 +41,11 @@ CLIENT_SECRET_FILE = "C:/Users/USER/Downloads/client_secret_.json"
 from database import register_user, login, save_enterprise, save_points, save_data
 
 
-origins = ["http://localhost:1234", "https://supplychain.graiperf.eu", "https://supply.scgreenoptimizer.fr"]
+origins = ["http://localhost:1234", "https://supplychain.graiperf.eu", "https://supply.scgreenoptimizer.fr/"]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=('https://supply.scgreenoptimizer.fr','http://localhost:1234'),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
